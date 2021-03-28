@@ -26,7 +26,6 @@ RSpec.describe Link, type: :model do
 		lookup_code: "1234567"
 		)
 	
-
 		expect(link.valid?).to be(false)
 	end
 
@@ -43,9 +42,10 @@ RSpec.describe Link, type: :model do
 
 		expect(link_2.valid?).to be(false)
 
-
-
 	end
+
+	
+
 
 
 
