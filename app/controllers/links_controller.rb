@@ -4,6 +4,7 @@ class LinksController < ApplicationController
 		#original_url = link_params[:original_url]
 		shortener = Shortener.new(link_params[:original_url])
 		@link = shortener.generate_short_link
+		#binding.pry
 		
 
 	end
